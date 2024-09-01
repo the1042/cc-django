@@ -101,7 +101,9 @@ THIRD_PARTY_APPS = [
 ]
 
 LOCAL_APPS = [
-    "{{ cookiecutter.project_slug }}.users",
+    "{{ cookiecutter.project_slug }}.utils.apps.UtilsConfig",
+    "{{ cookiecutter.project_slug }}.users.apps.UsersConfig",
+    "{{ cookiecutter.project_slug }}.pages.apps.PagesConfig",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
